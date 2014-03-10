@@ -10,7 +10,7 @@
 
 ## android box
 
-The `wercker/android` box runs on ubuntu 12.04 and provides a selection of the android toolchain:
+The `nvanbenschoten/android-tablelist` box runs on ubuntu 12.04 and provides a selection of the android toolchain:
 
 * gradle 1.11
 * android sdk version 22.2.1
@@ -28,7 +28,7 @@ The box also inherits tools from a not yet official java box, resulting in the f
 A typical android application can use the following yaml:
 
 ``` yaml
-box: wercker/android
+box: nvanbenschoten/android-tablelist
 # Build definition
 build:
   # The steps that will be executed on build
