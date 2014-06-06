@@ -14,7 +14,7 @@ The `nvanbenschoten/android-tablelist` box runs on ubuntu 12.04 and provides a s
 
 * gradle 1.11
 * android sdk version 22.2.1
-* android build tools 18.0.1 and 19.0.3
+* android build tools 18.0.1, 19.0.3, and 19.1.0
 * android API r17 (version 4.2.2), 18 (android 4.3) and 19 (android 4.4)
 * sys image 18, 19 (emulators)
 * android support library
@@ -82,6 +82,9 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 1.0.3
+* updated buildtools to include 19.1.0
 
 ## 1.0.2
 * updated gradle to 1.11
